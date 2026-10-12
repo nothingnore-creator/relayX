@@ -1,0 +1,53 @@
+{
+  "routes": [
+    {
+      "sourceId": "1555187899606114314",
+      "destinationId": "1480677209441042535"
+    },
+    {
+      "sourceId": "1480677209441042535",
+      "destinationId": "1555187899606114314"
+    },
+    {
+      "sourceId": "1522214596956520468",
+      "destinationId": "1479725061630857310"
+    },
+    {
+      "sourceId": "1479725061630857310",
+      "destinationId": "1522214596956520468"
+    }
+  ],
+  "roleMaps": [
+    {
+      "sourceGuildId": "1480117909098594436",
+      "destinationGuildId": "1479554920347598995",
+      "sourceRoleId": "1522454155015229600",
+      "destinationRoleId": "1481433624157880472"
+    },
+    {
+      "sourceGuildId": "1480117909098594436",
+      "destinationGuildId": "1479554920347598995",
+      "sourceRoleId": "1522454541411418302",
+      "destinationRoleId": "1481433301552992327"
+    },
+    {
+      "sourceGuildId": "1479554920347598995",
+      "destinationGuildId": "1480117909098594436",
+      "sourceRoleId": "1481640208880631828",
+      "destinationRoleId": "1555594026445439097"
+    },
+    {
+      "sourceGuildId": "1479554920347598995",
+      "destinationGuildId": "1480117909098594436",
+      "sourceRoleId": "1487146527485853808",
+      "destinationRoleId": "1522208543933988947"
+    },
+    {
+      "sourceGuildId": "1479554920347598995",
+      "destinationGuildId": "1480117909098594436",
+      "sourceRoleId": "1511334694120063046",
+      "destinationRoleId": "1535355502605893742"
+    }
+  ],
+  "emojiMaps": []
+}
