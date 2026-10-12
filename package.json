@@ -1,0 +1,14 @@
+{
+  "name": "all-in-one-discord-moderation-bot",
+  "version": "1.0.0",
+  "description": "All-in-one Discord.js v14 moderation bot with persistent JSON storage, logs and AutoMod.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  }
+}
