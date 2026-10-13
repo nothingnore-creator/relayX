@@ -1,53 +1,55 @@
 {
   "routes": [
-    {
-      "sourceId": "1555187899606114314",
-      "destinationId": "1480677209441042535"
-    },
-    {
-      "sourceId": "1480677209441042535",
-      "destinationId": "1555187899606114314"
-    },
-    {
-      "sourceId": "1522214596956520468",
-      "destinationId": "1479725061630857310"
-    },
-    {
-      "sourceId": "1479725061630857310",
-      "destinationId": "1522214596956520468"
-    }
+    { "sourceId": "1522214596956520468", "destinationId": "1479725061630857310" },
+    { "sourceId": "1479725061630857310", "destinationId": "1522214596956520468" },
+    { "sourceId": "1480652390976717042", "destinationId": "1522211760587800586" },
+    { "sourceId": "1522211760587800586", "destinationId": "1480652390976717042" },
+    { "sourceId": "1528432074338467851", "destinationId": "1520765634642968627" },
+    { "sourceId": "1520765634642968627", "destinationId": "1528432074338467851" },
+    { "sourceId": "1490338952157073501", "destinationId": "1536254783483150356" },
+    { "sourceId": "1536254783483150356", "destinationId": "1490338952157073501" },
+    { "sourceId": "1493132779322609835", "destinationId": "1522177775841181696" },
+    { "sourceId": "1522177775841181696", "destinationId": "1493132779322609835" },
+    { "sourceId": "1483443491831808091", "destinationId": "1522215070619402320" },
+    { "sourceId": "1522215070619402320", "destinationId": "1483443491831808091" },
+    { "sourceId": "1483941746214830202", "destinationId": "1522215351843164230" },
+    { "sourceId": "1522215351843164230", "destinationId": "1483941746214830202" },
+    { "sourceId": "1479720293889999015", "destinationId": "1522216897033142383" },
+    { "sourceId": "1522216897033142383", "destinationId": "1479720293889999015" },
+    { "sourceId": "1479720585767555173", "destinationId": "1522217222360006727" },
+    { "sourceId": "1522217222360006727", "destinationId": "1479720585767555173" },
+    { "sourceId": "1545577389487038635", "destinationId": "1548408175932219412" },
+    { "sourceId": "1548408175932219412", "destinationId": "1545577389487038635" },
+    { "sourceId": "1479721258324066435", "destinationId": "1522217572035072153" },
+    { "sourceId": "1522217572035072153", "destinationId": "1479721258324066435" },
+    { "sourceId": "1479721395582664704", "destinationId": "1522217754030112818" },
+    { "sourceId": "1522217754030112818", "destinationId": "1479721395582664704" },
+    { "sourceId": "1479721650705399898", "destinationId": "1522218432462983348" },
+    { "sourceId": "1522218432462983348", "destinationId": "1479721650705399898" },
+    { "sourceId": "1482816465580200102", "destinationId": "1522218982499815424" },
+    { "sourceId": "1522218982499815424", "destinationId": "1482816465580200102" },
+    { "sourceId": "1479721757291184180", "destinationId": "1523786992633253998" },
+    { "sourceId": "1523786992633253998", "destinationId": "1479721757291184180" },
+    { "sourceId": "1479721881832525974", "destinationId": "1522218810063585340" },
+    { "sourceId": "1522218810063585340", "destinationId": "1479721881832525974" },
+    { "sourceId": "1559153939826475138", "destinationId": "1522177511486656584" },
+    { "sourceId": "1522177511486656584", "destinationId": "1559153939826475138" },
+    { "sourceId": "1555187899606114314", "destinationId": "1521101837619564604" },
+    { "sourceId": "1521101837619564604", "destinationId": "1555187899606114314" }
   ],
   "roleMaps": [
-    {
-      "sourceGuildId": "1480117909098594436",
-      "destinationGuildId": "1479554920347598995",
-      "sourceRoleId": "1522454155015229600",
-      "destinationRoleId": "1481433624157880472"
-    },
-    {
-      "sourceGuildId": "1480117909098594436",
-      "destinationGuildId": "1479554920347598995",
-      "sourceRoleId": "1522454541411418302",
-      "destinationRoleId": "1481433301552992327"
-    },
-    {
-      "sourceGuildId": "1479554920347598995",
-      "destinationGuildId": "1480117909098594436",
-      "sourceRoleId": "1481640208880631828",
-      "destinationRoleId": "1555594026445439097"
-    },
-    {
-      "sourceGuildId": "1479554920347598995",
-      "destinationGuildId": "1480117909098594436",
-      "sourceRoleId": "1487146527485853808",
-      "destinationRoleId": "1522208543933988947"
-    },
-    {
-      "sourceGuildId": "1479554920347598995",
-      "destinationGuildId": "1480117909098594436",
-      "sourceRoleId": "1511334694120063046",
-      "destinationRoleId": "1535355502605893742"
-    }
+    { "sourceGuildId": "1480117909098594436", "destinationGuildId": "1479554920347598995", "sourceRoleId": "1522454155015229600", "destinationRoleId": "1481433624157880472" },
+    { "sourceGuildId": "1480117909098594436", "destinationGuildId": "1479554920347598995", "sourceRoleId": "1522454541411418302", "destinationRoleId": "1481433301552992327" },
+    { "sourceGuildId": "1479554920347598995", "destinationGuildId": "1480117909098594436", "sourceRoleId": "1481640208880631828", "destinationRoleId": "1555594026445439097" },
+    { "sourceGuildId": "1479554920347598995", "destinationGuildId": "1480117909098594436", "sourceRoleId": "1487146527485853808", "destinationRoleId": "1522208543933988947" },
+    { "sourceGuildId": "1479554920347598995", "destinationGuildId": "1480117909098594436", "sourceRoleId": "1511334694120063046", "destinationRoleId": "1535355502605893742" },
+    { "sourceGuildId": "1480117909098594436", "destinationGuildId": "1479554920347598995", "sourceRoleId": "1535355502605893742", "destinationRoleId": "1511334694120063046" },
+    { "sourceGuildId": "1480117909098594436", "destinationGuildId": "1479554920347598995", "sourceRoleId": "1522208543933988947", "destinationRoleId": "1487146527485853808" },
+    { "sourceGuildId": "1480117909098594436", "destinationGuildId": "1479554920347598995", "sourceRoleId": "1523336534772944948", "destinationRoleId": "1479713377587695760" },
+    { "sourceGuildId": "1479554920347598995", "destinationGuildId": "1480117909098594436", "sourceRoleId": "1479713377587695760", "destinationRoleId": "1523336534772944948" }
   ],
-  "emojiMaps": []
+  "emojiMaps": [
+    { "sourceEmojiId": "1547644540578570270", "destinationGuildId": "1479554920347598995", "destinationEmojiId": "1559155903821914172", "destinationEmojiName": "017" },
+    { "sourceEmojiId": "1547633975235715214", "destinationGuildId": "1480117909098594436", "destinationEmojiId": "1559156446065852438", "destinationEmojiName": "zeher_drink" }
+  ]
 }
