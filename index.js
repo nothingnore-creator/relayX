@@ -12,7 +12,9 @@ const path = require("path");
 const TOKEN = process.env.DISCORD_TOKEN;
 const OWNER_ID = process.env.RELAY_OWNER_ID || "";
 const PREFIX = ".relay";
-const DATA_FILE = path.join(__dirname, "relay-data.json");
+const DATA_DIR = process.env.DATA_DIR || "/data";
+const DATA_FILE = path.join(DATA_DIR, "relay-data.json");
+const LEGACY_DATA_FILE = path.join(__dirname, "relay-data.json");
 
 if (!TOKEN) {
     console.error("❌ DISCORD_TOKEN environment variable missing!");
@@ -66,7 +68,22 @@ function saveDatabase() {
     }
 }
 
+function migrateLegacyData() {
+    try {
+        fs.mkdirSync(DATA_DIR, { recursive: true });
+
+        if (!fs.existsSync(DATA_FILE) && fs.existsSync(LEGACY_DATA_FILE)) {
+            fs.copyFileSync(LEGACY_DATA_FILE, DATA_FILE);
+            console.log(`📦 Migrated legacy data from ${LEGACY_DATA_FILE} to ${DATA_FILE}`);
+        }
+    } catch (error) {
+        console.error("Database migration error:", error);
+    }
+}
+
+migrateLegacyData();
 loadDatabase();
+console.log(`💾 Using data file: ${DATA_FILE}`);
 
 /* =========================
    GENERAL HELPERS
